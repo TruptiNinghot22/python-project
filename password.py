@@ -27,26 +27,6 @@ for char in password_list:
 print(password)
 
 
-a={
-    "name":"Trupti",
-    "age":23,
-    "surname":"Ninghot"
-}
-for i,j in a.items():
-   # print(i,j)
-    if(type(j)==int):
-        print(i)
 
-for i,j in a.items():
-    if isinstance(j,int):
-        print(i)
-
-dic={}
-n=int(input())
-for i in range (n):
-    key=input("Enter a key")
-    value=input("Enter a value")
-    dic[key]=value
-print(dic)
 
 
